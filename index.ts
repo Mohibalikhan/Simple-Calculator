@@ -20,6 +20,7 @@ const answer = await inquirer.prompt([
   {message: "Enter Second Number", type: "number",name: "SecondNumber"},
 ]);
 
+
 //then we use conditional statements
 if (answer.operator==="Addition") {
     console.log( answer.FirstNumber + answer.SecondNumber);
@@ -37,5 +38,5 @@ else {
     console.log("You Enter valid number");
 }
 
-
+console.log("The End !");
 
