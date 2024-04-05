@@ -1,6 +1,5 @@
-#! /usr/bin/env node
+#!npm /usr/bin/env node
 //Above line is called SHABANG
-
 import inquirer from "inquirer"; //inquirer sawal pochta ha
 //([{iska andr ham wo likh ge jo hame user se chaie hoga}])
 //await matlab ruko user se sawal ke jawab lene do phir age jana
@@ -30,3 +29,4 @@ else if (answer.operator === "Multiplication") {
 else {
     console.log("You Enter valid number");
 }
+console.log("The End!");
