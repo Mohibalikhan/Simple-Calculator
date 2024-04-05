@@ -1,10 +1,9 @@
-#!npm /usr/bin/env node
+#! /usr/bin/env node
 //Above line is called SHABANG
 
 import inquirer from "inquirer"; //inquirer sawal pochta ha
 
-
-//([{iska andr ham wo likh ge jo hame user se chaie hoga}])
+//([{message}])//wo message jo hame chahie user se
 //await matlab ruko user se sawal ke jawab lene do phir age jana
 
 const answer = await inquirer.prompt([
@@ -38,5 +37,5 @@ else {
     console.log("You Enter valid number");
 }
 
-console.log("The End!");
+console.log("Thank you for using my Calculator!");
 

@@ -1,5 +1,5 @@
 {
-  "name": "myfirstprojectsimple_calculator",
+  "name": "mrkhan786simple_calculator",
   "version": "1.0.0",
   "description": "\"Simple Calculator\"",
   "main": "index.js",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.17",
-    "myfirstprojectsimple_calculator": "^1.0.0"
+    "mrkhan786simple_calculator": "^1.0.0"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
